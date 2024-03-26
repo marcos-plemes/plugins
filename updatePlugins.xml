@@ -16,7 +16,7 @@ available at this repository.
     -->
     <plugin
             id="com.megasoft.ConfiguracaoInicial"
-            url="https://raw.githubusercontent.com/marcos-plemes/plugins/main/updatePlugins.xml"
+            url="https://raw.githubusercontent.com/marcos-plemes/plugins/main/configura-banco.jar"
             version="1.0.0">
         <name>Configura Banco</name>
 
