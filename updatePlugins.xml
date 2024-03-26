@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+The <plugins> element (required) contains the description of the plugins
+available at this repository.
+-->
+<plugins>
+    <!--
+    Each <plugin> element (required) describes one plugin in the repository.
+    Attributes:
+     - "id" (required) - used by JetBrains IDEs to uniquely identify
+       a plugin. Must match <id> in the plugin.xml file.
+     - "url" (required) - URL to download the plugin JAR/ZIP file.
+       Must be HTTPS.
+     - "version" (required) - version of this plugin. Must match <version>
+       in the plugin.xml file.
+    -->
+    <plugin
+            id="megasoft.configurabanco"
+            url="https://mycompany.example.com/my_repo/my_plugin.jar"
+            version="major.minor.update">
+        <name>Configura Banco</name>
+
+        <description><![CDATA[
+        Ferramenta para baixar banco de dados e configurar aplicações automaticamente.
+    ]]></description>
+        <depends>com.intellij.modules.platform</depends>
+        <idea-version since-build="181.3" until-build="191.*"/>
+    </plugin>
+    <!-- And so on for other plugins... -->
+</plugins>
