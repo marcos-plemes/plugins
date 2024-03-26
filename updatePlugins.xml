@@ -16,7 +16,7 @@ available at this repository.
     -->
     <plugin
             id="megasoft.configurabanco"
-            url="https://mycompany.example.com/my_repo/my_plugin.jar"
+            url="https://github.com/marcos-plemes/plugins/configura-banco.jar"
             version="major.minor.update">
         <name>Configura Banco</name>
 
